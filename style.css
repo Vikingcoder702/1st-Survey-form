@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body {
+  font-family: 'Noto Serif', serif;
+  line-height: 1.4;
+  background: linear-gradient(180deg, #0738bc 0%, #adc1f5 100%);
+  width: 600px;
+  margin: auto;
+}
+
+form {
+  background: linear-gradient(180deg, #adc1f5 0%, #0738bc 100%);
+  border-radius: 1.8rem;
+  box-shadow: 10px 4px ;
+  box-sizing: border-box;
+  padding: 2.5rem 2.5rem;
+  width: 600px;
+  margin: auto;
+
+}
+
+.submit-button {
+  width: 100%;
+  padding: 0.75rem;
+  background: linear-gradient(180deg, #0738bc 0%, #adc1f5 100%);
+  border-radius: 06px;
+  cursor: pointer;
+  box-shadow: 5px 5px;
+}
+
+.input-headings {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.form-inputs {
+  display: block;
+  width: 90%;
+  height: 2rem;
+  ppadding: 0.25rem 0.75rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  box-shadow: 2px 2px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 3px 3px #424246;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 1.5px 1.5px #424246;
+  
+}
+
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px;
+}
+
+.textarea {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+};

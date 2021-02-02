@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  
+<header>
+  <h1 id="title"> <b> What Super Power Would You Choose? </b> </h1>
+  </header>
+ 
+  <body>
+<p id="description"> <b> If you were given the choice to pick one super power, what would you choose, and why? </b></p>
+
+<form id="survey-form">
+  
+  <div class="input-headings">
+    
+  <label for="name" id="name-label"> <b>Name</b> </label>
+  <input id="name" type="text" name="name" placeholder="Barry Allen" class="form-inputs" required></input>
+  <br>
+
+<label for="email" id="email-label"> <b> Email </b> </label>
+<input id="emil" type="emil" name="email" class="form-inputs" placeholder="Example@email.com" required></input>
+<br>
+
+<label for="number" id="number-label"> <b> Age </b> </label>
+<input id="number" type="number" name="number" min="18" max="110" placeholder="18" class="form-inputs" required</input>
+<br>
+
+<label for="dropdown" id="dropdown"> <b> Select Ability </b> </label>
+<select id="dropdown" class="form-inputs">
+  <option value="Flight"> Flight </option>
+  <option value="Invisibility"> Invisibility </option>
+  <option value="Speed"> Speed </option>
+  <option value="Invincibility"> Invincibility </option>
+  <option value="Telekinesis"> Telekinesis </option>
+  <option value="Telepathy"> Telepathy </option>
+  <option value="Strength"> Strength </option>
+  <option value="Heat_Vision"> Heat Vision </option>
+  <option value="Freeze_Time"> Freeze Time </option>
+  <option value="Shape_Shifting"> Shape Shifting </option>
+</select>
+<br>
+<br>
+
+<label for="costume_no_costume" id="costume_no_costume"> <b> Costume: </b> </label>
+<br>
+  <input for="costume_no_costume" type="radio" id="costume" name="costume" value="costume">
+<label for="costume_no_costume"> <b> Costume </b> </label>
+<br>
+ <input for="costume_no_costume" type="radio" id="no_costume" name="no_costume" value="no_costume">
+<label for="costume_no_costume"> <b> No Costume </b> </label>
+<br>
+<br>
+
+<label for="tell_a_friend"> <b> Would You Tell Your Best Friend </b> </label>
+<br>
+<input id="checkbox" type="checkbox" name="tell_a_friend" value="yes">
+<label for="checkbox"> <b> Yes </b> </label>
+<br>
+<input id="checkbox" type="checkbox" name="tell_a_friend" value="no">
+<label for="checkbox"> <b> No </b> </label>
+<br>
+<input id="checkbox" type="checkbox" name="tell_a_friend" value="i_don't_know">
+<label for="checkbox"> <b> I Don't Know </b> </label>
+<br>
+<input id="checkbox" type="checkbox" name="tell_a_friend" value="tell_someone_else">
+<label for="checkbox"> <b> Tell Someone Else </b> </label>
+<br>
+<br>
+<label id="textarea" class="textarea"> <b> Tell Us Why You Made Your Decision </b> </label>
+<br>
+<textarea id="textarea" name="instructions" placeholder="Add Your Text Here" rows="6" cols="62">
+</textarea>
+<br>
+
+<input id="submit" type="submit" value="Submit" class="submit-button">
+
+  </div>
+</form>
+
+</body>
+</html>
